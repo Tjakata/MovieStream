@@ -1,0 +1,80 @@
+#hBoxOne{
+    -fx-padding: 5;
+    -fx-spacing: 5;
+    -fx-background-color: #1c1c1b;
+}
+#hBoxTwo{
+    -fx-padding: 5;
+    -fx-spacing: 5;
+    -fx-background-color: #1c1c1b;
+}
+#hBoxThree{
+    -fx-padding: 5;
+    -fx-spacing: 5;
+    -fx-background-color: #1c1c1b;
+}
+
+#hBoxOne:hover{
+    -fx-border-radius: 5px;
+    -fx-border-color: #212121;
+    -fx-background-color: #212121;
+}
+#hBoxTwo:hover{
+    -fx-border-radius: 5px;
+    -fx-border-color: #212121;
+    -fx-background-color: #212121;
+}
+#hBoxThree:hover{
+    -fx-border-radius: 5px;
+    -fx-border-color: #212121;
+    -fx-background-color: #212121;
+}
+#vBox{
+    -fx-background-color: #1f1e1c;
+    -fx-padding:5;
+    -fx-spacing:5;
+}
+#Title{
+    -fx-font-family: Florence;
+    -fx-font-size: 25px;
+    -fx-padding: 5;
+    -fx-fill: #fcfcfc;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+#Title1{
+    -fx-font-family: Florence;
+    -fx-font-size: 25px;
+    -fx-padding: 5;
+    -fx-fill: #fcfcfc;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#Title2{
+    -fx-font-family: Florence;
+    -fx-font-size: 25px;
+    -fx-padding: 5;
+    -fx-fill: #fcfcfc;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#btnBack{
+    -fx-background-color: #949191;
+}
+#btnBack:hover{
+    -fx-background-color: #9c0202;
+    -fx-background-radius: 5px;
+}
+
+.tooltip{
+    -fx-show-delay:0ms;
+    -fx-font: normal 20 Langdon;
+    -fx-base: #AE3522;
+    -fx-text-fill: white;
+}
+
+#Emma:hover,#idiots:hover,#cSL:hover,#iFamily:hover,#prom:hover,#leaveYou:hover,#window:hover,#thinkTwice:hover,
+#avengers:hover,#badman:hover,#doctorStrange:hover,#fast:hover,#spectre:hover,#transformers:hover,#venom:hover,
+#quiet:hover,#bladeRunner:hover,#blockAttack:hover,#colossal:hover,#pacificRim:hover,#snowPiercer:hover,
+#theEndless:hover,#underSkin:hover,#avatar:hover{
+    -fx-background-color: #9c0202;
+    -fx-background-radius: 5px;
+}

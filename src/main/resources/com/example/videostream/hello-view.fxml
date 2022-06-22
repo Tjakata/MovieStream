@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane fx:id="scrollPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.videostream.MainController">
+   <content>
+      <VBox fx:id="vBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1220.0">
+         <children>
+            <Text fx:id="Title" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: sans-serif;" text="Drama" />
+            <HBox fx:id="hBoxOne" prefHeight="200.0" prefWidth="1220.0">
+               <children>
+                  <Hyperlink fx:id="Emma" onAction="#Emma" prefHeight="200.0" prefWidth="140.0" stylesheets="@style.css">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Emma" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="idiots" onAction="#idiots" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="3 Idiots" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="cSL" onAction="#cSL" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Crazy Stupid Love" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="iFamily" onAction="#iFamily" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Instant Family" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="prom" onAction="#prom" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="The Prom" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="leaveYou" onAction="#leaveYou" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="This Is Where I Leave You" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="window" onAction="#window" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Through My Window" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="thinkTwice" onAction="#thinkTwice" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Don't Think Twice" />
+                     </tooltip>
+                  </Hyperlink>
+               </children>
+            </HBox>
+
+            <Text fx:id="Title1" strokeType="OUTSIDE" strokeWidth="0.0" text="Action" />
+            <HBox fx:id="hBoxTwo" prefHeight="200.0" prefWidth="1220.0">
+               <children>
+                  <Hyperlink fx:id="avatar" onAction="#avatar" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Avatar" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="avengers" onAction="#avengers" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Avengers" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="badman" onAction="#badman" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="The Badman" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="doctorStrange" onAction="#doctorStrange" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Doctor Strange" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="fast" onAction="#fast" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="The Fast Saga" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="spectre" onAction="#spectre" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Spectre" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="transformers" onAction="#transformers" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Transformers" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="venom" onAction="#venom" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Venom" />
+                     </tooltip>
+                  </Hyperlink>
+               </children>
+            </HBox>
+            <Text fx:id="Title2" strokeType="OUTSIDE" strokeWidth="0.0" text="Sci-fi" />
+            <HBox fx:id="hBoxThree" prefHeight="200.0" prefWidth="1220.0">
+               <children>
+                  <Hyperlink fx:id="quiet" onAction="#quiet" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="A Quiet Place" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="bladeRunner" onAction="#bladeRunner" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Blade Runner 2049" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="blockAttack" onAction="#blockAttack" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Attack the Block" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="colossal" onAction="#colossal" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Colossal" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="pacificRim" onAction="#pacificRim" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Pacific Rim: Uprising" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="snowPiercer" onAction="#snowPiercer" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Snow Piercer" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="theEndless" onAction="#theEndless" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="The Endless" />
+                     </tooltip>
+                  </Hyperlink>
+                  <Hyperlink fx:id="underSkin" onAction="#underSkin" prefHeight="200.0" prefWidth="140.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <tooltip>
+                        <Tooltip text="Under the Skin" />
+                     </tooltip>
+                  </Hyperlink>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </content>
+</ScrollPane>
